@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limpe e Renove Higienizações</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #5ec9f8;
+      color: white;
+      padding: 2rem 1rem 6rem;
+      text-align: center;
+      position: relative;
+    }
+
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1b4f72;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #5bc481;
+    }
+
+    main {
+      padding: 8rem 1rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .cta {
+      background: #5bc481;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .cta a {
+      background: white;
+      color: #5bc481;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .social a {
+      color: #5ec9f8;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .social a:hover {
+      transform: scale(1.2);
+    }
+
+    .valores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .formulario {
+      background: #f9f9f9;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+
+    .formulario input, .formulario textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .formulario button {
+      background: #5bc481;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      height: 300px;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background: #1b4f72;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      position: relative;
+    }
+
+    #topo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #5ec9f8;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 0.75rem 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: transform 0.3s ease;
+    }
+
+    #topo:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#valores">Valores</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#fale">Fale Conosco</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <img src="logo-sem-fundo.png" alt="Limpe e Renove Higienizações Logo">
+    <h1>Limpe e Renove Higienizações</h1>
+    <p>Especialistas em Higienização de Estofados</p>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre nós</h2>
+      <p>Somos a Limpe e Renove Higienizações, uma empresa especializada na limpeza e renovação de estofados residenciais e comerciais. Nosso compromisso é proporcionar mais saúde, conforto e bem-estar para você e sua família através de técnicas modernas e produtos ecológicos.</p>
+    </section>
+
+    <section>
+      <h2>Por que higienizar seu estofado?</h2>
+      <p>Com o tempo, sofás, cadeiras e colchões acumulam poeira, ácaros, bactérias e manchas que afetam a saúde e o bem-estar da sua família. Nossa higienização profunda remove sujeiras invisíveis, renova o visual e prolonga a vida útil dos seus estofados.</p>
+    </section>
+
+    <section id="servicos">
+      <h2>Nossos serviços</h2>
+      <ul>
+        <li>Higienização de sofás</li>
+        <li>Higienização de colchões</li>
+        <li>Limpeza de poltronas e cadeiras</li>
+        <li>Impermeabilização de estofados</li>
+      </ul>
+    </section>
+
+    <section id="valores">
+      <h2>Valores dos Serviços</h2>
+      <div class="valores">
+        <div class="card">
+          <h3>Sofá 2 lugares</h3>
+          <p>A partir de R$ 90,00</p>
+        </div>
+        <div class="card">
+          <h3>Colchão solteiro</h3>
+          <p>A partir de R$ 70,00</p>
+        </div>
+        <div class="card">
+          <h3>Impermeabilização</h3>
+          <p>A partir de R$ 120,00</p>
+        </div>
+        <div class="card">
+          <h3>Outros</h3>
+          <p>Orçamentos personalizados sob consulta</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Solicite um orçamento agora!</h2>
+      <p>Atendimento rápido e personalizado, com toda a qualidade que seu lar merece.</p>
+      <a href="https://wa.me/seunumerowhatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <div class="social">
+        <a href="https://instagram.com/suaempresa" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/suaempresa" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Telefone: (11) 91234-5678</p>
+      <p>Email: contato@limpeerenove.com.br</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8196098767423!2d-46.64881338446749!3d-23.576905884675654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b8ba63c5d1%3A0x3f4c5ff2cc8b4ea9!2sAv.%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1617772069085!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section id="fale">
+      <h2>Fale conosco</h2>
+      <div class="formulario">
+        <form action="#">
+          <input type="text" placeholder="Seu nome" required>
+          <input type="email" placeholder="Seu e-mail" required>
+          <textarea rows="5" placeholder="Sua mensagem"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="topo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <footer>
+    <p>&copy; 2025 Limpe e Renove Higienizações. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
